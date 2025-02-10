@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Themed Blog App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>BlogApp</h1>
+      <button id="toggle-theme" title="Toggle Dark/Light Mode">🌙</button>
+    </header>
+
+    <div class="form-container">
+      <h2>Create a New Post</h2>
+      <input type="text" id="title" placeholder="Title" />
+      <textarea id="content" placeholder="Content"></textarea>
+      <input type="text" id="category" placeholder="Category" />
+      <input type="text" id="author" placeholder="Author" />
+      <button id="submitPost">Submit</button>
+    </div>
+
+    <div id="blogPostsList">
+      <h2>All Blog Posts</h2>
+      <ul id="postsList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
